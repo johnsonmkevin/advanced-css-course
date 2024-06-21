@@ -83,7 +83,7 @@ h6 {
 }
 
 .primary-header__sub {
-  letter-spacing: 1.5rem;
+  letter-spacing: 1.7rem;
   font-weight: 500;
   font-size: 2rem;
   margin-bottom: 4rem;
@@ -101,5 +101,5 @@ a {
   border-radius: 100px;
   opacity: 80%;
   cursor: pointer;
-  font-size: medium;
+  font-size: 1.6rem;
 }
