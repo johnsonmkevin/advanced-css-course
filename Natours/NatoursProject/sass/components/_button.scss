@@ -1,0 +1,29 @@
+.btn {
+  display: inline-block;
+  letter-spacing: 0.4rem;
+  padding: 1.4rem 2.4rem;
+  background-color: #116f8b;
+  color: $color-white;
+  border-radius: 100px;
+  cursor: pointer;
+  animation: moveUp 2s ease-in-out;
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #777;
+}
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+}
+.btn:active {
+  transform: translateY(0.3rem);
+}
