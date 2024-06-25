@@ -11,6 +11,7 @@ Dark green: #28b485
 *::after {
   box-sizing: border-box;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +20,7 @@ Dark green: #28b485
 html {
   font-size: 62.5%;
 }
+
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -26,6 +28,7 @@ body {
   padding: 1.2rem;
   font-family: "Lato", sans-serif;
 }
+
 img,
 picture,
 video,
@@ -34,12 +37,14 @@ svg {
   display: block;
   max-width: 100%;
 }
+
 input,
 button,
 textarea,
 select {
   font: inherit;
 }
+
 p,
 h1,
 h2,
@@ -70,6 +75,7 @@ h6 {
   justify-content: center;
   align-items: center;
 }
+
 .primary-header > * {
   display: block;
   color: #fff;
@@ -96,7 +102,7 @@ a {
 .primary-header a {
   display: inline-block;
   padding: 1rem 2.4rem;
-  background-color: #3cced3;
+  background-color: #d36c3c;
   color: #000;
   border-radius: 100px;
   opacity: 80%;
