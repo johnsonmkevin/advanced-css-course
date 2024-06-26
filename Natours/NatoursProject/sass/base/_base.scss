@@ -15,7 +15,10 @@ html {
 }
 
 body {
-  box-sizing: inherit;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Lato", sans-serif;
+  margin: 1.2rem 1.2rem 0 1.2rem;
 }
 
 img,

@@ -1,6 +1,26 @@
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  padding: 1.2rem;
-  font-family: "Lato", sans-serif;
+.heading-secondary {
+  display: inline-block;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: linear-gradient(to right, $primary-forest-blue, $secondary-forest-blue);
+  -webkit-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  color: white;
+  background-size: cover;
+  letter-spacing: 0.2rem;
+}
+
+.heading-tertiary {
+  font-size: $default-font-size;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
 }

@@ -2,7 +2,7 @@
   display: inline-block;
   letter-spacing: 0.4rem;
   padding: 1.4rem 2.4rem;
-  background-color: #116f8b;
+  background-color: $primary-forest-blue;
   color: $color-white;
   border-radius: 100px;
   cursor: pointer;
@@ -26,4 +26,25 @@
 }
 .btn:active {
   transform: translateY(0.3rem);
+}
+
+.btn-text {
+  &:link,
+  &:visited {
+    font-size: $default-font-size;
+    color: $primary-forest-blue;
+    display: inline-block;
+    border-bottom: 1px solid $primary-forest-blue;
+    padding: 4px;
+    transition: all 0.2s;
+  }
+  &:hover {
+    background-color: $secondary-forest-blue;
+    color: $color-white;
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+    transform: translateY(-2px);
+  }
+  &:active {
+    transform: translateY(0);
+  }
 }
